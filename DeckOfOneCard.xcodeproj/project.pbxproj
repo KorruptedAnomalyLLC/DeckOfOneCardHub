@@ -11,6 +11,7 @@
 		0C5BB0E82289D07100CE2F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5BB0E62289D07100CE2F54 /* Main.storyboard */; };
 		0C5BB0EA2289D07200CE2F54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5BB0E92289D07200CE2F54 /* Assets.xcassets */; };
 		0C5BB0ED2289D07200CE2F54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5BB0EB2289D07200CE2F54 /* LaunchScreen.storyboard */; };
+		0C5BB0F72289D53900CE2F54 /* SWAPIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5BB0F62289D53900CE2F54 /* SWAPIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		0C5BB0E92289D07200CE2F54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C5BB0EC2289D07200CE2F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C5BB0EE2289D07200CE2F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C5BB0F62289D53900CE2F54 /* SWAPIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWAPIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				0C5BB0F42289D08700CE2F54 /* Resources */,
 				0C5BB0F52289D0A000CE2F54 /* Storyboard */,
 				0C5BB0E92289D07200CE2F54 /* Assets.xcassets */,
+				0C5BB0F82289D58800CE2F54 /* View Controllers */,
 			);
 			path = DeckOfOneCard;
 			sourceTree = "<group>";
@@ -75,6 +78,14 @@
 				0C5BB0E62289D07100CE2F54 /* Main.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0C5BB0F82289D58800CE2F54 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0C5BB0F62289D53900CE2F54 /* SWAPIViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C5BB0E32289D07100CE2F54 /* AppDelegate.swift in Sources */,
+				0C5BB0F72289D53900CE2F54 /* SWAPIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
